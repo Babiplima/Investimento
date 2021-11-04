@@ -22,4 +22,46 @@ public class InvestidorDTO {
         this.periodoDeAplicacaoMeses = periodoDeAplicacaoMeses;
         this.valorPrevisto = valorPrevisto;
     }
+
+    //Getters e Setters
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public int getPeriodoDeAplicacaoMeses() {
+        return periodoDeAplicacaoMeses;
+    }
+
+    public void setPeriodoDeAplicacaoMeses(int periodoDeAplicacaoMeses) {
+        this.periodoDeAplicacaoMeses = periodoDeAplicacaoMeses;
+    }
+
+    public double getValorPrevisto() {
+        return valorPrevisto;
+    }
+
+    public void setValorPrevisto(double valorPrevisto) {
+        this.valorPrevisto = valorPrevisto;
+    }
 }
