@@ -16,6 +16,25 @@ public class RetornoInvestidorDTO {
         this.valorDeRetorno = valorDeRetorno;
         this.valorTotal = valorTotal;
     }
+
+    //Getters e Setters
+
+
+    public double getValorDeRetorno() {
+        return valorDeRetorno;
+    }
+
+    public void setValorDeRetorno(double valorDeRetorno) {
+        this.valorDeRetorno = valorDeRetorno;
+    }
+
+    public double getValorTotal() {
+        return valorTotal;
+    }
+
+    public void setValorTotal(double valorTotal) {
+        this.valorTotal = valorTotal;
+    }
 }
 
 
